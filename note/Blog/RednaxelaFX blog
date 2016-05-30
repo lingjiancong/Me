@@ -1,0 +1,14 @@
+http://rednaxelafx.iteye.com/blog/
+
+1. 关于带副作用的表达式的一点笔记
+
+  imperative programming style 命令式
+  functional programming style 函数式
+
+  Java JVM bytecode ??
+
+2. 吉里吉里2中TJS2 VM的dispatch loop
+
+  Bill Blunden的Virtual Machine Design and Implementation in C,C++
+
+
