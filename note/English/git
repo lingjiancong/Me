@@ -1,0 +1,6 @@
+
+To get a commit count for a revision(HEAD, master, a commit hash):
+	git rev-list --count <revision>
+To get the commit count across all branches:
+	git rev-list --all --count
+

@@ -1,0 +1,4 @@
+
+soft link source
+
+	readlink -f `which command`
