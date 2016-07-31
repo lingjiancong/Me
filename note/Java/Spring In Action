@@ -8,4 +8,14 @@ Spring 4种关键策略：
 	JavaBean 的生命周期
 
 	SpEL表达式
+	AOP Aspect-oriented programming 
+	Advice 通知       Joinpoint 连接点	   Pointcut  切点    
+	Aspect 切面       Introduction 引入    Weaving 织入
+	
+	Spring 在数据访问中所使用的模式   模板方法模式
 
+	Spring 将数据访问过程中固定的和可变的部分明确划分为不同的类：模板（template）和回调（callback）
+
+	JNDI Java Naming and Directory Interface is a Java API for a directory service that allows Java software clients to discover and look up data and objects via a name.
+
+	
