@@ -1,0 +1,7 @@
+
+wget -r -np -nH --restrict-file-names=nocontrol -R index.html --user=lingjiancong --password='123456' http://192.168.6.244:8080/svn/filesvn/
+curl
+awk
+grep 
+sed
+wc -l

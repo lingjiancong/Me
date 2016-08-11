@@ -1,0 +1,14 @@
+
+svn diff -r revisionBase:revisionWorking
+
+svn diff -c M == svn diff -r M-1:M
+svn diff -c -M == svn diff -r M:M-1
+
+svn diff --summarize -r revisionBase:revisionWorking
+
+git rebase ???
+
+
+vagrant ssh time out first 
+computer should enable 'Intel Virtual Technology', spend almost whole afternoon, bad, bad
+
