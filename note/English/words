@@ -14,3 +14,7 @@ Gradle effort can be summed as "Convention is good and so is flexibility".
  tedious
  POJO Plain Old Java Object
  asterisk
+
+ the buffer alleviates this by allowing entire blocks of data to move at once rather than in small chunks. The data is written and read only once from the buffer. Furthermore, the buffers are visiable to at least one party which is aware of it.
+
+ 
