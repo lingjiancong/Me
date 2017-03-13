@@ -1,0 +1,18 @@
+{ 
+    "name": "第一个Chrome插件", 
+    "manifest_version": 2, 
+    "version": "1.0", 
+    "description": "我的第一个Chrome插件，还不错吧", 
+    "browser_action": { 
+        "default_icon": "icon.jpg" 
+    },
+    "permissions": [
+        "tabs", "http://*/*","https://*/*"
+    ],
+    "content_scripts": [ 
+        { 
+            "matches": ["https://reserve.cdn-apple.com/HK/zh_HK/reserve/iPhone/availability?channel=1"], 
+            "js": ["myscript.js"] 
+        } 
+    ] 
+}

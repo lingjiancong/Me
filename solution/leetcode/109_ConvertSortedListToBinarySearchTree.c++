@@ -1,6 +1,6 @@
 /**
  * Given a singly linked list where elements are sorted in ascending order, 
- * convert it to a height balanced BST.
+p* convert it to a height balanced BST.
  * 
  */
 #include <iostream>
@@ -22,7 +22,7 @@ struct TreeNode {
 
 class Solution {
 
-    TreeNode *node;
+    ListNode *node;
 
 public:
 
@@ -41,6 +41,8 @@ public:
         }
 
         TreeNode *root = build(0, size - 1);
+
+        return root;
     }
 
 private:
@@ -55,13 +57,14 @@ private:
 
         TreeNode *root = new TreeNode(node->val);
 
+        // move 
+        node = node->next;
+
         TreeNode *right = build(mid + 1, end);
 
         root->left = left;
         root->right = right;
 
-        // move 
-        node = node->next;
 
         return root;
     }
@@ -103,7 +106,7 @@ private:
 
 };
 
-ListNode *buildList(const vetor<int> &nums) {
+ListNode *buildList(const vector<int> &nums) {
 
     int size = nums.size();
     if (size == 0)
@@ -131,9 +134,11 @@ int main() {
     Solution solution;
     TreeNode *root = solution.sortedListToBST(head);
     solution.print(root);
+    cout << endl;
 
-    root = solution.sortedArrayToBST(nus);
+    root = solution.sortedArrayToBST(nums);
     solution.print(root); 
+    cout << endl;
 } 
     
 
