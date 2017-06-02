@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+# idea
+*.idea
+# idea cmake
+solution/leetcode/cmake-build-debug/
